@@ -20,4 +20,5 @@ RUN apt-get update \
     && apt-get install -y libpq-dev \
     && docker-php-ext-install pdo_mysql pdo_pgsql
 
+# 変更する
 WORKDIR /var/www/html/sample
